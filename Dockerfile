@@ -6,7 +6,7 @@ COPY . /app
 
 RUN npm install
 
-ENTRYPOINT ["node"]
+#ENTRYPOINT ["node"]
 
-CMD ["server.js"]
-#CMD ["npm","start"]
+#CMD ["server.js"]
+CMD ["npm","start"]
